@@ -74,3 +74,19 @@ docker build -t myapp:v1 .
 ```shell
 docker run --name myapp_c -p 4000:4000 myapp:v1
 ```
+### Command start a container in attached mode
+```shell
+docker start -i container_name
+```
+### Command start a container in attached mode
+```shell
+docker start -i container_name
+```
+### Command to atomatically delete a container after stopping it
+```shell
+docker run --name myapp_c_nodemon -p 4000:4000 -rm myapp:nodemon
+```
+### Command to use volume
+```shell
+docker run --name myapp_c_nodemon -p 4000:4000 --rm -v C:\Users\abhishek\Desktop\My-Codes\Docker\api:/app -v /app/node_modules myapp:nodemon
+```
