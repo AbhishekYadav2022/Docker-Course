@@ -90,3 +90,11 @@ docker run --name myapp_c_nodemon -p 4000:4000 -rm myapp:nodemon
 ```shell
 docker run --name myapp_c_nodemon -p 4000:4000 --rm -v C:\Users\abhishek\Desktop\My-Codes\Docker\api:/app -v /app/node_modules myapp:nodemon
 ```
+### Command to run docker-compose
+```shell
+docker-compose up
+```
+### Command to stop docker-compose
+```shell
+docker-compose down
+```
